@@ -11,7 +11,20 @@ Projects and pratical assignments for data mining course at AUT, spring 2022
 -  [Final project](https://github.com/hedzd/AUT-Datamining-projects/tree/main/Final_Project)
 
 ## Preprocessing iris flower dataset:
-
+Various pre-processings were done in this project.
+1. Missing values were recognized and dropped
+2. **One-hot encoding** have been used for encoding _categorical features_
+3. _Numerical features_ were normalized using **StandardScaler** 
+4. **Principal Component Analysis (PCA)** have been used for dimensionality reduction (4D to 2D)
+5. Reduced features have been visualized
+6. Original Dataset(without NaN-values) have been visualized using Box plot
+### Results:
+**PCA output**  
+![PCA output plot](Preprocess_IRIS_dataset/assets/PCA_plot.png)
+  
+  
+**Features boxplot**  
+![Features boxplot](Preprocess_IRIS_dataset/assets/boxplot.png)
 ## Circles classification:
 
 ## Classification fashion mnist dataset:
