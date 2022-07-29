@@ -79,14 +79,14 @@ The general purpose of this project was to implement a classifier which finds sy
      - Hyperparameter changes have been plotted 
      
 ### Results:  
-Best hyperparameters: {'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 300}  
-Test Accuracy: 75.70%  
-Train Accuracy: 76.13%  
-Test precision:  0.759  
-Train precision:  0.763  
-Test recall:  0.757  
-Train recall:  0.761  
-ROC score:  0.840  
+**Best hyperparameters:** {'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 300}  
+**Test Accuracy:** 75.70%  
+**Train Accuracy:** 76.13%  
+**Test precision:**  0.759  
+**Train precision:**  0.763  
+**Test recall:**  0.757  
+**Train recall:**  0.761  
+**ROC score:**  0.840  
   
-Plot of mean score and its standard deviation for each hyperparameter:
+**Mean score and standard deviation for each hyperparameter:**
 ![hyperparameters](https://i.ibb.co/JkqKL8J/plot5.png)
